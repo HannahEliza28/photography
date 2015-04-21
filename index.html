@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hannah Park Photography</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<style>
+	body {
+		background-image:url("background.jpg");
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:100%;
+	}
+	</style>
+</head>
+
+<body>
+<div id="section">
+	<div id="leftSection">
+		<div id="title">
+			<h3>HANNAH PARK</h3>
+		</div>
+		<div id="nav">
+			<a onClick="changeSrc('about')">ABOUT</a><br>
+			<a onClick="changeSrc('contact')">CONTACT</a><br>
+			<a onClick="changeSrc('editorial')">EDITORIAL</a><br>
+			<a onClick="changeSrc('london_fashion_week')">LONDON FASHION WEEK</a><br>
+			<a onClick="changeSrc('flats')">FLATS</a><br>
+			<a onClick="changeSrc('futurism')">FUTURISM</a><br>
+			<a onClick="changeSrc('lingerie')">LINGERIE</a><br>
+			<a onClick="changeSrc('narratives')">NARRATIVES</a><br>
+			<a onClick="changeSrc('beauty_portraits')">BEAUTY PORTRAITS</a><br>
+		</div>
+	</div>
+	<div id="rightSection">
+		<iframe id="content" name="iframe_content" src="futurism.html" style="border:none" width="100%" height="100%"></iframe>
+	</div>
+</div>
+
+</body>
+</html>
